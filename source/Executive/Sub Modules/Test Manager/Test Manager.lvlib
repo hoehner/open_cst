@@ -17,7 +17,10 @@
 	</Item>
 	<Item Name="Concrete Classes" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Enqueue Test Msg.lvclass" Type="LVClass" URL="../Test Manager Messages/Enqueue Test Msg/Enqueue Test Msg.lvclass"/>
 		<Item Name="Execute Next Test Msg.lvclass" Type="LVClass" URL="../Test Manager Messages/Execute Next Test Msg/Execute Next Test Msg.lvclass"/>
+		<Item Name="Execute All Tests Msg.lvclass" Type="LVClass" URL="../Test Manager Messages/Execute All Tests Msg/Execute All Tests Msg.lvclass"/>
 	</Item>
 	<Item Name="Test Manager.lvclass" Type="LVClass" URL="../Test Manager/Test Manager.lvclass"/>
 </Library>
